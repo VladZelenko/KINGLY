@@ -45,13 +45,13 @@
     padding: 7px;
     width: 35px;
     height: 30px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
     .line {
       display: block;
       width: 20px;
       height: 3px;
-      background: #000;
+      background: $primary_font_color;
     }
     .line:nth-child(2) {margin: 3px 0;}
   }

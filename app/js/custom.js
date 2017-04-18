@@ -18,12 +18,14 @@ function closeNav(){
 // }
 
 $('.header-slider').slick({
-	infinite: true,
+	arrows: true,
+	dots: true,
+	infinite: false,
 	speed: 1000,
-	autoplay: true,
-	autoplaySpeed: 3000,
 	slidesToShow: 1,
 	slidesToScroll: 1,
+	autoplay: true,
+  autoplaySpeed: 2000,
 	responsive: [
 	{
 		breakpoint: 1024,
@@ -48,5 +50,9 @@ $('.header-slider').slick({
 			slidesToScroll: 1
 		}
 	}
-	]
-});
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+    ]
+
+  });
