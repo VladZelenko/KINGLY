@@ -1,0 +1,27 @@
+.content {
+	padding: 150px 0 130px 0;
+	.firstbox {
+		min-height: 500px;
+		&:before {
+			display: block;
+			content: 'L';
+			font: 900 500px $primary_font;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 11;
+		}
+		p {
+			position: relative;
+			top: 190px;
+			left: 0;
+			z-index: 22;
+			margin-top: 275px;
+		}
+	}
+	p {
+		padding-top: 20px;
+		color: $secondary_font_color;
+		font: 300 22px/24px $primary_font;
+	}
+}

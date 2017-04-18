@@ -8616,9 +8616,10 @@ button.close {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   .news-info .col-1 {
     padding-top: 65px;
     width: 295px; }
@@ -8633,6 +8634,29 @@ button.close {
     font: italic 21px "Heuristica", sans-serif; }
   .news-info p {
     font: 400 21px/34px "Heuristica", sans-serif; }
+
+.content {
+  padding: 150px 0 130px 0; }
+  .content .firstbox {
+    min-height: 500px; }
+    .content .firstbox:before {
+      display: block;
+      content: 'L';
+      font: 900 500px "Open Sans", sans-serif;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 11; }
+    .content .firstbox p {
+      position: relative;
+      top: 190px;
+      left: 0;
+      z-index: 22;
+      margin-top: 275px; }
+  .content p {
+    padding-top: 20px;
+    color: #b7b7b7;
+    font: 300 22px/24px "Open Sans", sans-serif; }
 
 .news-btn {
   margin-top: 60px;
@@ -8710,4 +8734,7 @@ button.close {
       height: 3px;
       background: #ffffff; }
     #open-btn-nav .line:nth-child(2) {
-      margin: 3px 0; } }
+      margin: 3px 0; }
+  .flexcontainer {
+    width: 90%;
+    margin: 0 auto; } }
