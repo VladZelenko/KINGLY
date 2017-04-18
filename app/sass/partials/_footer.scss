@@ -19,6 +19,7 @@
 		display: flex;
 		flex-flow: row wrap;
 		li {margin-right: 25px;}
+		li:last-child {margin-right: 0;}
 	}
 	.copyright {
 		display: block;

@@ -8800,6 +8800,8 @@ button.close {
             flex-flow: row wrap; }
     .footer .social-btn li {
       margin-right: 25px; }
+    .footer .social-btn li:last-child {
+      margin-right: 0; }
   .footer .copyright {
     display: block;
     padding-bottom: 30px;
@@ -8900,7 +8902,8 @@ button.close {
     height: 30px;
     border: none;
     -webkit-border-radius: 5px;
-            border-radius: 5px; }
+            border-radius: 5px;
+    margin-top: 20px; }
     #open-btn-nav .line {
       display: block;
       width: 20px;
@@ -8911,3 +8914,41 @@ button.close {
   .flexcontainer {
     width: 90%;
     margin: 0 auto; } }
+
+@media only screen and (min-width: 320px) and (max-width: 660px) {
+  .intro {
+    padding: 0 10px; }
+  .hero .title {
+    font-size: 28px; }
+  .news-info {
+    text-align: center; }
+    .news-info .news-btn {
+      margin: 20px auto; }
+  .content .firstbox p {
+    padding-top: 0; }
+  .total-section .flexbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+    .total-section .flexbox .col-1, .total-section .flexbox .col-2, .total-section .flexbox .col-2 {
+      width: 100%;
+      padding: 20px; }
+  .footer .social-btn {
+    min-width: 140px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .footer .social-btn li {
+      margin-bottom: 20px; } }
