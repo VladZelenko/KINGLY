@@ -1,0 +1,28 @@
+.intro {
+	width: 100%;
+	min-height: 770px;
+	background-image: url('../../img/header-img.png');
+	background-size: cover;
+	color: $primary_font_color;
+}
+//nav menu
+.close-btn {display: none;}
+.flexbox {
+	min-height: 95px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.overlay__content {
+	display: flex;
+	flex-flow: row nowrap;
+	li a{
+		padding: 5px 20px;
+		color: $secondary_font_color;
+		font: 600 18px $primary_font;
+		text-transform: uppercase;
+		cursor: pointer;
+		&:hover {text-decoration: none;}
+	}
+}
