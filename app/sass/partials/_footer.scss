@@ -1,0 +1,24 @@
+.footer {
+	width: 100%;
+	min-height: 705px;
+	background-image: url('../../img/footer-img.png');
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $primary_font_color;
+	h2.title {
+		font: 700 38px $primary_font;
+		text-align: center;
+	}
+	.social-btn {
+		margin: 70px 0 0 0;
+		display: flex;
+		li {margin-right: 25px;}
+	}
+	.copyright {
+		display: block;
+		text-align: center;
+	}
+	.fa {padding: 0 45px 0 25px;}
+}

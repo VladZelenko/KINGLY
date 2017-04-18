@@ -8760,6 +8760,41 @@ button.close {
     .total-section .flexbox span {
       color: #ffffff; }
 
+.footer {
+  width: 100%;
+  min-height: 705px;
+  background-image: url("../../img/footer-img.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff; }
+  .footer h2.title {
+    font: 700 38px "Open Sans", sans-serif;
+    text-align: center; }
+  .footer .social-btn {
+    margin: 70px 0 0 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .footer .social-btn li {
+      margin-right: 25px; }
+  .footer .copyright {
+    display: block;
+    text-align: center; }
+  .footer .fa {
+    padding: 0 45px 0 25px; }
+
 .news-btn {
   margin-top: 60px;
   display: block;
@@ -8778,6 +8813,26 @@ button.close {
     transition: all .5s ease-in-out .1s;
     color: #000000;
     background-color: #ffffff; }
+
+.twitter-btn, .facebook-btn {
+  width: 250px;
+  height: 50px;
+  display: block;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  color: #ffffff;
+  font: 700 16px/50px "Open Sans", sans-serif;
+  background-color: #3671b9;
+  text-transform: uppercase; }
+  .twitter-btn:hover, .twitter-btn:focus, .facebook-btn:hover, .facebook-btn:focus {
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in-out .1s;
+    transition: all .5s ease-in-out .1s;
+    color: #000000;
+    background-color: #ffffff; }
+
+.twitter-btn {
+  background-color: #55c1e7; }
 
 @media only screen and (max-width: 1920px) {
   .overlay {
