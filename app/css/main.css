@@ -8579,7 +8579,7 @@ button.close {
           flex-flow: row nowrap; }
   .overlay__content li a {
     padding: 5px 20px;
-    color: #b7b7b7;
+    color: #707070;
     font: 600 18px "Open Sans", sans-serif;
     text-transform: uppercase;
     cursor: pointer; }
@@ -8642,20 +8642,21 @@ button.close {
     .content .firstbox:before {
       display: block;
       content: 'L';
-      font: 900 500px "Open Sans", sans-serif;
+      font: 900 550px "Open Sans", sans-serif;
       position: absolute;
-      bottom: 0;
+      bottom: 150px;
       left: 0;
       z-index: 11; }
     .content .firstbox p {
+      padding-top: 210px;
       position: relative;
-      top: 190px;
+      top: 0;
       left: 0;
       z-index: 22;
       margin-top: 275px; }
   .content p {
     padding-top: 20px;
-    color: #b7b7b7;
+    color: #707070;
     font: 300 22px/24px "Open Sans", sans-serif; }
 
 .news-btn {

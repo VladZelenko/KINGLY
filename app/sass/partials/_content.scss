@@ -5,15 +5,16 @@
 		&:before {
 			display: block;
 			content: 'L';
-			font: 900 500px $primary_font;
+			font: 900 550px $primary_font;
 			position: absolute;
-			bottom: 0;
+			bottom: 150px;
 			left: 0;
 			z-index: 11;
 		}
 		p {
+			padding-top: 210px;
 			position: relative;
-			top: 190px;
+			top: 0;
 			left: 0;
 			z-index: 22;
 			margin-top: 275px;
