@@ -8659,6 +8659,32 @@ button.close {
     color: #707070;
     font: 300 22px/24px "Open Sans", sans-serif; }
 
+.total-section {
+  text-align: center; }
+  .total-section .train-rides, .total-section .people {
+    width: 100%;
+    min-height: 345px;
+    color: #ffffff;
+    font: 700 38px "Open Sans", sans-serif;
+    background-image: url("../../img/img23.png");
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .total-section .train-rides h2.title, .total-section .people h2.title {
+      font-weight: 700; }
+  .total-section .people {
+    background-image: url("../../img/img24.png"); }
+
 .news-btn {
   margin-top: 60px;
   display: block;

@@ -1,0 +1,19 @@
+.total-section {
+	text-align: center;
+	.train-rides {
+		width: 100%;
+		min-height: 345px;
+		color: $primary_font_color;
+		font: 700 38px $primary_font;
+		background-image: url('../../img/img23.png');
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		h2.title {font-weight: 700;}
+	}
+	.people  {
+		@extend .train-rides;
+		background-image: url('../../img/img24.png');
+	}
+}
