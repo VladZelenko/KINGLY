@@ -16,4 +16,59 @@
 		@extend .train-rides;
 		background-image: url('../../img/img24.png');
 	}
+	.flexbox {
+		display: flex;
+		flex-flow: row wrap;
+		.col-1 {
+			width: 50%;
+			min-height: 465px;
+			color: $primary_font_color;
+			background-image: url('../../img/img25.png');
+			background-size: cover;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-flow: column wrap;
+			.title:after {
+				margin: 30px auto 0 auto;
+				display: block;
+				content: '';
+				width: 75px;
+				height: 4px;
+				background-color: #a0cecb;
+			}
+		}
+		.col-2 {
+			@extend .col-1;
+			background-image: url('../../img/img26.png');
+			.title:after {display: none;}
+			.title:before {
+				margin: 0 auto 35px auto;
+				display: block;
+				content: '';
+				width: 55px;
+				height: 6px;
+				background-color: #a0cecb;
+			}
+		}
+		.post-info {
+			display: flex;
+			flex-flow: row wrap;
+			li {margin-right: 30px;}
+		}
+		h2.title {
+			width: 270px;
+			font: 900 24px $primary_font;
+		}
+		h3.subtitle {
+			margin-bottom: 30px;
+			width: 250px;
+			font: italic 21px/29px $secondary_font;
+		}
+		p {
+			color: #b3b3b3;
+			max-width: 345px;
+		}
+		span {color: $primary_font_color;}
+	}
 }
