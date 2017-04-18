@@ -1,12 +1,15 @@
 .footer {
 	width: 100%;
-	min-height: 705px;
 	background-image: url('../../img/footer-img.png');
 	background-size: cover;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	color: $primary_font_color;
+	.footer-info {
+		min-height: 705px;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
+	}
 	h2.title {
 		font: 700 38px $primary_font;
 		text-align: center;
@@ -14,11 +17,18 @@
 	.social-btn {
 		margin: 70px 0 0 0;
 		display: flex;
+		flex-flow: row wrap;
 		li {margin-right: 25px;}
 	}
 	.copyright {
 		display: block;
+		padding-bottom: 30px;
+		font: italic 16px $primary_font;
 		text-align: center;
 	}
 	.fa {padding: 0 45px 0 25px;}
+	.brand {
+		font-weight: 700;
+		font-style: normal;
+	}
 }
