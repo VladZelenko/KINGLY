@@ -8590,10 +8590,68 @@ button.close {
   margin-top: 200px;
   text-align: center; }
   .header-slider .title {
-    font: 700 60px "Open Sans", sans-serif;
-    text-transform: uppercase; }
+    font: 700 60px "Open Sans", sans-serif; }
   .header-slider p {
     font: italic 20px "Open Sans", sans-serif; }
+
+.news-info {
+  padding: 170px 0 80px 0;
+  width: 100%;
+  min-height: 820px;
+  background-image: url("../../img/slice-3.png");
+  background-size: cover;
+  color: #ffffff; }
+  .news-info h2.title {
+    margin-top: 0;
+    font: 700 38px "Open Sans", sans-serif;
+    text-align: center; }
+  .news-info .flexcontainer {
+    padding-top: 130px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .news-info .col-1 {
+    padding-top: 65px;
+    width: 295px; }
+  .news-info .col-2 {
+    max-width: 395px; }
+  .news-info h3.title {
+    margin-bottom: 0;
+    font: 700 24px "Open Sans", sans-serif; }
+  .news-info h4.subtitle {
+    margin-bottom: 20px;
+    color: #b3b3b3;
+    font: italic 21px "Heuristica", sans-serif; }
+  .news-info p {
+    font: 400 21px/34px "Heuristica", sans-serif; }
+
+.news-btn {
+  margin-top: 60px;
+  display: block;
+  width: 120px;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  color: #ccc;
+  font: 700 16px/45px "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .news-btn:hover, .news-btn:focus {
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in-out .1s;
+    transition: all .5s ease-in-out .1s;
+    color: #000000;
+    background-color: #ffffff; }
 
 @media only screen and (max-width: 1920px) {
   .overlay {

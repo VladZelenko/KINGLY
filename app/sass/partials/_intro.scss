@@ -29,9 +29,6 @@
 .header-slider {
 	margin-top: 200px;
 	text-align: center;
-	.title {
-		font: 700 60px $primary_font;
-		text-transform: uppercase;
-	}
+	.title {font: 700 60px $primary_font;}
 	p {font: italic 20px $primary_font;}
 }

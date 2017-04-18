@@ -1,0 +1,18 @@
+.news-btn {
+	margin-top: 60px;
+	display: block;
+	width: 120px;
+	border: 2px solid #ffffff;
+	border-radius: 30px;
+	color: #ccc;
+	font: 700 16px/45px $primary_font;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	&:hover, &:focus {
+		text-decoration: none;
+		transition: all .5s ease-in-out .1s;
+		color: #000000;
+		background-color: $primary_font_color;
+	}
+}

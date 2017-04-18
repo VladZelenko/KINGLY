@@ -20,7 +20,7 @@ function closeNav(){
 $('.header-slider').slick({
 	arrows: true,
 	dots: true,
-	infinite: false,
+	infinite: true,
 	speed: 1000,
 	slidesToShow: 1,
 	slidesToScroll: 1,
