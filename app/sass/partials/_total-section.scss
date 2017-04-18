@@ -55,6 +55,11 @@
 			display: flex;
 			flex-flow: row wrap;
 			li {margin-right: 30px;}
+			li:last-child {margin-right: 0;}
+			.fa {
+				margin-right: 10px;
+				font-size: 24px;
+			}
 		}
 		h2.title {
 			width: 270px;
